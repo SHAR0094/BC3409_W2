@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 # Configure the API key for Google PaLM
-api = "AIzaSyD4FLlHsBs4L8F5W1V7_jnyXZR46f4iUX4"
+api = "AIzaSyD4FLlHsBs4L8F5W1V7_jnyXZR46f4iUX4
 palm.configure(api_key=api)
 
 # Define the model to use (Gemini 1.5)
