@@ -30,6 +30,10 @@ def ai_agent_reply():
 def prediction():
     return render_template("index.html")
 
+@app.route("/joke", methods=["GET"])
+def joke():
+    return render_template("joke.html")
+
 if __name__ == "__main__":
     app.run()
 
