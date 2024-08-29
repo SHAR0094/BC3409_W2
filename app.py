@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-pip install google-generativeai
 import google.generativeai as palm
 import os
 
