@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-import google.generativeai as genai
+import google.generativeai as palm
 import os
 
 # Configure the API key for Google PaLM
